@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: k8saws-dev-tls
+spec:
+  secretName: k8saws-dev
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: k8saws.dev
+  dnsNames:
+    - k8aws.com
+    - wwww.k8saws.dev
