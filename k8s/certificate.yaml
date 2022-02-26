@@ -9,5 +9,5 @@ spec:
     kind: ClusterIssuer
   commonName: k8saws.dev
   dnsNames:
-    - k8aws.com
-    - wwww.k8saws.dev
+    - k8saws.dev
+    - www.k8saws.dev
